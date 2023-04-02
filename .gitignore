@@ -1,0 +1,3 @@
+.DS_Store
+clojure/**/target
+.lein-failures

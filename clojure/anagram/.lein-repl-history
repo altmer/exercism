@@ -1,0 +1,20 @@
+clojure.string
+(clojure.string/lower-case "DER")
+(sort (clojure.string/lower-case "DER"))
+(into "" (sort (clojure.string/lower-case "DER")))
+(clojure.string/join (sort (clojure.string/lower-case "DER")))
+exit()
+(normalized "ant")
+(anagram/normalized "ant")
+(defn normalized [word] && (memoize && (str/join (sort (str/lower-case word)))) && )
+(defn normalized [word]
+(memoize
+(str/join (sort (str/lower-case word))))
+)
+(ns anagram (:require [clojure.string :as str]))
+(defn normalized [word]
+(memoize
+(str/join (sort (str/lower-case word))))
+)
+(normalized "DEF")
+exit()
